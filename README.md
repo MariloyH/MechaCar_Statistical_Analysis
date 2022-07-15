@@ -9,7 +9,12 @@ Subsequently, I used the R function for linear regression lm(), using all the va
  p-value = 5.35 e-11, clearly less than 0.05, so we can reject our null hypothesis and affirm that there is a correlation between the car's metrics and mpg.
 Looking at our predictor variable, adjusted R-squared, we can say that 68.25% of the mpg variability is predicted by our model.
 
+Subsequently, I used the R function for linear regression lm(), using all the variables and the summary gave us the following data:
+From the image we can see that only vl and gc have p-value less than 0.05, so in these two cases the null hypothesis is false and therefore, these variables do correlate with mpg. In the case of the other metrics, we discard them because their p-value is greater than 0.05.
 
+now to determine the coefficients, we use the attribute of the coefficients object and obtain these values.
+-1.039 and e02
+-103.9 + 6.26 x1 + 3.54 x2
 
 
 
