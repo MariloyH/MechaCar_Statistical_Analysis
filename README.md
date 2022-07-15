@@ -10,7 +10,7 @@ Subsequently, I used the R function for linear regression lm(), using all the va
 Looking at our predictor variable, adjusted R-squared, we can say that 68.25% of the mpg variability is predicted by our model.
 
 Subsequently, I used the R function for linear regression lm(), using all the variables and the summary gave us the following data:
-From the image we can see that only vl and gc have p-value less than 0.05, so in these two cases the null hypothesis is false and therefore, these variables do correlate with mpg. In the case of the other metrics, we discard them because their p-value is greater than 0.05.
+we can see that only vl and gc variables provide a significant contribution to the linear model beacuse their  p-values are  less than 0.05, so in these two cases the null hypothesis is false and therefore, these variables do correlate with mpg. In the case of the other metrics, we discard them because their p-value is greater than 0.05.
 
 now to determine the coefficients, we use the attribute of the coefficients object and obtain these values.
 -1.039 and e02
@@ -18,12 +18,8 @@ now to determine the coefficients, we use the attribute of the coefficients obje
 
 <img width="793" alt="D1Summary()" src="https://user-images.githubusercontent.com/102195803/179312746-40b806ab-b50a-446c-b56c-2015cb2c9508.png">
 
-
-nd write a short summary using a screenshot of the output from the linear regression, and address the following questions:
-
-
-
-
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+ #- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+    From the summary, we can see that only the variables "vehicle_length" and "groun_clearance" provided a non-random amount of variance.
+ #- Is the slope of the linear model considered to be zero? No. 
+    Why or why not? because we have correlacion between the metrics and and the dependent variable, mpg
+ #- Does this linear model predict mpg of MechaCar prototypes effectively? Yes Why or why not? Because in the summary we can observe that the R squared is 
