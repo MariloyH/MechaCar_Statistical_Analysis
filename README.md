@@ -17,11 +17,14 @@ now to determine the coefficients, we use the attribute of the coefficients obje
 #-103.9 + 6.26 x1 + 3.54 x2
 
 <img width="793" alt="D1Summary()" src="https://user-images.githubusercontent.com/102195803/179312746-40b806ab-b50a-446c-b56c-2015cb2c9508.png">
+
   -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
     From the summary, we can see that only the variables "vehicle_length" and "groun_clearance" provided a non-random amount of variance.
-  -Is the slope of the linear model considered to be zero? No. 
-    Why or why not? because we have correlacion between the metrics and and the dependent variable, mpg
-  -Does this linear model predict mpg of MechaCar prototypes effectively? Yes Why or why not? Because in the summary we can observe that the R squared is 
+  -Is the slope of the linear model considered to be zero? **No** 
+    Why or why not? **Because we have correlacion between the metrics and and the dependent variable, mpg**
+  -Does this linear model predict mpg of MechaCar prototypes effectively? **Yes**
+  Why or why not? **Because in the summary we can observe that the R squared is**
+  
   
  # Deliverable 2
  ## Summary Statistics on Suspension Coils
