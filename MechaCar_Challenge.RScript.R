@@ -1,6 +1,7 @@
 library (dplyr)
 library (tidyverse)
 
+#DELIVERABLE 1
 car_df <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 names (car_df)
 
@@ -19,11 +20,8 @@ modelo_mpg<-lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+
 summary(modelo_mpg)
 modelo_mpg$coefficients
 
-susp_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
-head(susp_table)
 
-total_summary<-summarize(susp_table, Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
-total_summary
 
-lot_summary <-summarize(group_by(susp_table, Manufacturing_Lot), Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
-lot_summary
+
+
+
