@@ -20,7 +20,7 @@ now to determine the coefficients, we use the attribute of the coefficients obje
 
   -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   
-    **From the summary, we can see that only the variables "vehicle_length" and "groun_clearance" provided a non-random amount of variance.**
+  **From the summary, we can see that only the variables "vehicle_length" and "groun_clearance" provided a non-random amount of variance.**
     
   -Is the slope of the linear model considered to be zero? 
   **No** 
