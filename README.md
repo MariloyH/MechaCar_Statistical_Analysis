@@ -38,9 +38,11 @@ now to determine the coefficients, we use the attribute of the coefficients obje
  For this Deliverable, we took the data from Suspension_Coils.csv and we did some stats using R functions summarize an groupby
  
  The PSI stats for all the database were: 
+ 
  <img width="549" alt="total_summary" src="https://user-images.githubusercontent.com/102195803/179329342-dfad1081-bb6b-4697-bb57-37bbc8c5cffd.png">
 
  And the PSI stats by lot using summarize() and groupby() were: 
+ 
  <img width="630" alt="lot_summary" src="https://user-images.githubusercontent.com/102195803/179329429-3b7896bb-35c0-4bef-8589-9c7e875310d2.png">
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? **No** Why or why not?
