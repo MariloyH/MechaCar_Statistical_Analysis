@@ -48,3 +48,30 @@ now to determine the coefficients, we use the attribute of the coefficients obje
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? **No** Why or why not?
 Because the Variance for the lot3 is greater than 100 psi.
 
+# Deliverable 3 
+## T-Test  on Suspension Coils 
+Written Summary
+In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+Deliverable 3 Requirements
+You will earn a perfect score for Deliverable 3 by completing all requirements below:
+
+An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population (5 pt)
+An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt)
+There is a summary of the t-test results across all manufacturing lots and for each lot (5 pt)
+
+
+# Deliverable 4
+Deliverable 4: Design a Study Comparing the MechaCar to the Competition (20 points)
+Deliverable 4 Instructions
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+Follow the instructions below to complete Deliverable 4.
+
+In your README, create a subheading ## Study Design: MechaCar vs Competition.
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
