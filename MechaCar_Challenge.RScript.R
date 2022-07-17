@@ -1,5 +1,4 @@
 library (dplyr)
-library (tidyverse)
 
 #DELIVERABLE 1
 car_df <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
