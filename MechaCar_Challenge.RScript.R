@@ -30,5 +30,17 @@ total_summary
 lot_summary <-summarize(group_by(susp_table, Manufacturing_Lot), Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 lot_summary
 
+#DELIVERABLE 3 T-TEST ON SUSPENSION COILS 
+#All database
+t.test((susp_table$PSI),mu=1500)
+
+#Lot1
+t.test(subset(susp_table, Manufacturing_Lot == "Lot1")$PSI, mu=1500)
+#Lot2
+t.test(subset(susp_table, Manufacturing_Lot == "Lot2")$PSI, mu=1500)
+#Lot3
+t.test(subset(susp_table, Manufacturing_Lot == "Lot3")$PSI, mu=1500)
+
+
 
 
