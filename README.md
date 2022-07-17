@@ -7,11 +7,11 @@ As part of the data exploration, I used R's function to plot each of the metrics
 
  Subsequently, I used the R function for linear regression lm(), using all the variables in their dataframe. 
  The summary gave us the following data: **p-value = 5.35 e-11**, clearly less than 0.05, so we can **reject our null hypothesis and affirm that there is a correlation between the car's metrics and mpg**, that´s why **we can no consider zero our linear model slope**. The variables that provide a non-random amount of variance were **"vehicle_length" and "ground_clearance"**. Aditionally, looking at our predictor variable, adjusted R-squared, we can say that 68.25% of the mpg variability is predicted by our model. **So this model is predicted effectively**, so te linear equation for our model will be: 
+ ## y = -104 + 6.24x1+ 3.54 x2  
+   where x1 is vehicle length and x2 ground clearance.
        
 <img width="700" alt="D1Summary()" src="https://user-images.githubusercontent.com/102195803/179312746-40b806ab-b50a-446c-b56c-2015cb2c9508.png">
 
- ## y = -104 + 6.24x1+ 3.54 x2  where x1 is vehicle length and x2 ground clearance.
- 
  # Deliverable 2
  ## Summary Statistics on Suspension Coils
  For this Deliverable, we took the data from Suspension_Coils.csv and we did some stats using R functions summarize an groupby
