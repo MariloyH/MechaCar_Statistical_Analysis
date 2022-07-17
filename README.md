@@ -65,6 +65,7 @@ If we were asked to quantify how the MechaCar performs againts the competition, 
 Then, I will select the **One Way ANOVA T-Test** for each metric, because  we need to compare metrics from several different populations, MechaCar and more than one competitor. Starting from these,  we formulate our hypothesis:
 
    H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+   
    Ha : At least one of the means is different from all other groups.  
    
 And we make these assumptions to run the statitistical analysis about our input data from MechaCar and from the competitors:
