@@ -13,8 +13,7 @@ Subsequently, I used the R function for linear regression lm(), using all the va
 we can see that only vl and gc variables provide a significant contribution to the linear model beacuse their  p-values are  less than 0.05, so in these two cases the null hypothesis is false and therefore, these variables do correlate with mpg. In the case of the other metrics, we discard them because their p-value is greater than 0.05.
 
 now to determine the coefficients, we use the attribute of the coefficients object and obtain these values.
--1.039 and e02
-#-103.9 + 6.26 x1 + 3.54 x2
+        #-1.039 and e02, -103.9 + 6.26  + 3.54 x2
 
 <img width="793" alt="D1Summary()" src="https://user-images.githubusercontent.com/102195803/179312746-40b806ab-b50a-446c-b56c-2015cb2c9508.png">
 
