@@ -23,7 +23,7 @@ As part of the data exploration, I used R's function to plot each of the metrics
  
  <img width="630" alt="lot_summary" src="https://user-images.githubusercontent.com/102195803/179329429-3b7896bb-35c0-4bef-8589-9c7e875310d2.png">
 
-The design specifications for the MechaCar Suspension Coils indicate that the variance of the Suspension Coils must not exceed 100 pounds per square inch. Although the all manufacturing lots in total, Lot 1 and Lot 2 meet the design specifiction, the Lot3 didn´t beacese its variance is 170, well above the variance of 100 psi established by the desgin specification.
+The design specifications for the MechaCar Suspension Coils indicate that the variance of the Suspension Coils must not exceed 100 pounds per square inch. Although the all manufacturing lots in total, Lot 1 and Lot 2 meet the design specifiction, the Lot3 didn´t because its variance was 170, well above the variance of 100 psi established by the desgin specification.
 
 # Deliverable 3 
 ## T-Test  on Suspension Coils 
