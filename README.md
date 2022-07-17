@@ -14,8 +14,7 @@ As part of the data exploration, I used R's function to plot each of the metrics
 
  # Deliverable 2
  ## Summary Statistics on Suspension Coils
- For this Deliverable, we took the data from Suspension_Coils.csv and we did some stats using R functions summarize an groupby
- 
+ For this Deliverable, we took the data from Suspension_Coils.csv and we did some stats using R functions *summarize()* and *groupby().*
  The PSI stats for all the database were: 
  
  <img width="549" alt="total_summary" src="https://user-images.githubusercontent.com/102195803/179329342-dfad1081-bb6b-4697-bb57-37bbc8c5cffd.png">
