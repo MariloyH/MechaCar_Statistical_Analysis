@@ -62,22 +62,22 @@ So, we calculate the T-Test.
 
    ### For all manufacturing lots. 
    
-<img width="656" alt="Captura de Pantalla 2022-07-16 a la(s) 20 10 45" src="https://user-images.githubusercontent.com/102195803/179414528-94d79db0-c1de-4ade-8689-e524b2d57cdd.png">
+<img width="400" alt="Captura de Pantalla 2022-07-16 a la(s) 20 10 45" src="https://user-images.githubusercontent.com/102195803/179414528-94d79db0-c1de-4ade-8689-e524b2d57cdd.png">
 
  **In this case we can see that the p-value is the 0.06 so, its more than 0.05, so our Null Hypothesis is true, i.e. there is no  statistical difference between all manufacturing lots PSI  mean that is 1,498.78 and the popultation mean 0f 1,500.**  
 
    ### Lot1 
-<img width="657" alt="Captura de Pantalla 2022-07-16 a la(s) 20 11 08" src="https://user-images.githubusercontent.com/102195803/179414567-ffb5a3ff-9839-41c4-84ad-eb8d745b354a.png">
+<img width="400" alt="Captura de Pantalla 2022-07-16 a la(s) 20 11 08" src="https://user-images.githubusercontent.com/102195803/179414567-ffb5a3ff-9839-41c4-84ad-eb8d745b354a.png">
 
  **In this case we can see that the p-value is the 1 so, its more than 0.05, so our Null Hypothesis is true, i.e. there is no  statistical difference between Lot1 PSI mean that is 1,500 and the popultation mean 0f 1,500.** 
  
    ### Lot2
-<img width="660" alt="Captura de Pantalla 2022-07-16 a la(s) 20 11 27" src="https://user-images.githubusercontent.com/102195803/179414586-3812c6b4-8a2d-4f20-8e32-4f5d046d63a5.png">
+<img width="400" alt="Captura de Pantalla 2022-07-16 a la(s) 20 11 27" src="https://user-images.githubusercontent.com/102195803/179414586-3812c6b4-8a2d-4f20-8e32-4f5d046d63a5.png">
 
 **In this case we can see that the p-value is the 0.60 so, its more than 0.05, so our Null Hypothesis is true, i.e. there is no  statistical difference between Lot2 PSI mean that is 1,500.2 and the popultation mean 0f 1,500.** 
 
-   ###Lot3
-<img width="648" alt="Captura de Pantalla 2022-07-16 a la(s) 20 11 42" src="https://user-images.githubusercontent.com/102195803/179414618-ad41d072-53df-4f95-add5-e85ab3c99989.png">
+   ### Lot3
+<img width="400" alt="Captura de Pantalla 2022-07-16 a la(s) 20 11 42" src="https://user-images.githubusercontent.com/102195803/179414618-ad41d072-53df-4f95-add5-e85ab3c99989.png">
 
 **In this case we can see that the p-value is the 0.041 so, its less than 0.05, so our Null Hypothesis is FALSE, then our alternative hypothesis is TRUE, i.e. there is a statistical difference between Lot3 PSI mean that is 1,496.14 and the popultation mean 0f 1,500.**
 
