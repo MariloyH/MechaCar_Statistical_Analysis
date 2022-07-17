@@ -10,8 +10,8 @@ Subsequently, I used the R function for linear regression lm(), using all the va
 Looking at our predictor variable, adjusted R-squared, we can say that 68.25% of the mpg variability is predicted by our model.
 
 From the summary, we can determine the coefficients for our linear model. 
+ ## y = -104 +  6.267x1  + 3.54x2
        
-
 <img width="793" alt="D1Summary()" src="https://user-images.githubusercontent.com/102195803/179312746-40b806ab-b50a-446c-b56c-2015cb2c9508.png">
 
   -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -21,11 +21,11 @@ From the summary, we can determine the coefficients for our linear model.
   -Is the slope of the linear model considered to be zero? 
   **No** 
   Why or why not? 
-  **Because we have correlacion between the metrics and and the dependent variable, mpg**
+  **Because we have a correlacion between the metrics and and the dependent variable, mpg**
   
   -Does this linear model predict mpg of MechaCar prototypes effectively? 
   **Yes**
-  
+ 
   Why or why not? 
   **Because in the summary we can observe that the R squared is 0.68, in other words, it has 68% of the y variablity depends from x**
  
