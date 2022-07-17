@@ -7,7 +7,7 @@ As part of the data exploration, I used R's function to plot each of the metrics
 
  Subsequently, I used the R function for linear regression lm(), using all the variables in their dataframe. 
  The summary gave us the following data: **p-value = 5.35 e-11**, clearly less than 0.05, so we can **reject our null hypothesis and affirm that there is a correlation between the car's metrics and mpg**, that´s why **we can no consider zero our linear model slope**. The variables that provide a non-random amount of variance were **"vehicle_length" and "ground_clearance"**. Aditionally, looking at our predictor variable, R-squared has a value of 0.7149, so we can say that **71.49% of the mpg variability is predicted by our model, So this model is predicted effectively**. Finally the linear equation for our model will be: 
- ## y = -104 + 6.24x1+ 3.54 x2  
+ ## y = -104 + 6.24x1 + 3.54 x2  
    where x1 is vehicle length and x2 ground clearance.
        
 <img width="700" alt="D1Summary()" src="https://user-images.githubusercontent.com/102195803/179312746-40b806ab-b50a-446c-b56c-2015cb2c9508.png">
@@ -23,8 +23,7 @@ As part of the data exploration, I used R's function to plot each of the metrics
  
  <img width="630" alt="lot_summary" src="https://user-images.githubusercontent.com/102195803/179329429-3b7896bb-35c0-4bef-8589-9c7e875310d2.png">
 
-The design specifications for the MechaCar Suspension Coils indicate that the variance of the Suspension Coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? **No** Why or why not?
-Because the Variance for the lot3 is greater than 100 psi.
+The design specifications for the MechaCar Suspension Coils indicate that the variance of the Suspension Coils must not exceed 100 pounds per square inch. Although the all manufacturing lots in total, Lot 1 and Lot 2 meet the design specifiction, the Lot3 didn´t beacese its variance is 170, well above the variance of 100 psi established by the desgin specification.
 
 # Deliverable 3 
 ## T-Test  on Suspension Coils 
