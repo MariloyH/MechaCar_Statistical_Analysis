@@ -6,7 +6,7 @@
 As part of the data exploration, I used R's function to plot each of the metrics vs. mpg, to see there were a correlation. From this plots, I could observe that only "vehicle_length" and "ground_clearance" seem to affect the mpg variable. 
 
  Subsequently, I used the R function for linear regression lm(), using all the variables in their dataframe. 
- The summary gave us the following data: **p-value = 5.35 e-11**, clearly less than 0.05, so we can **reject our null hypothesis and affirm that there is a correlation between the car's metrics and mpg**, that´s why **we can no consider zero our linear model slope**. The variables that provide a non-random amount of variance were **"vehicle_length" and "ground_clearance"**. Aditionally, looking at our predictor variable, adjusted R-squared, we can say that 68.25% of the mpg variability is predicted by our model. **So this model is predicted effectively**, so te linear equation for our model will be: 
+ The summary gave us the following data: **p-value = 5.35 e-11**, clearly less than 0.05, so we can **reject our null hypothesis and affirm that there is a correlation between the car's metrics and mpg**, that´s why **we can no consider zero our linear model slope**. The variables that provide a non-random amount of variance were **"vehicle_length" and "ground_clearance"**. Aditionally, looking at our predictor variable, R-squared has a value of 0.7149, so we can say that **71.49% of the mpg variability is predicted by our model, So this model is predicted effectively**. Finally the linear equation for our model will be: 
  ## y = -104 + 6.24x1+ 3.54 x2  
    where x1 is vehicle length and x2 ground clearance.
        
