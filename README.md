@@ -31,7 +31,7 @@ now to determine the coefficients, we use the attribute of the coefficients obje
   **Yes**
   
   Why or why not? 
-  **Because in the summary we can observe that the R squared is**
+  **Because in the summary we can observe that the R squared is 0.68, in other words, it has 68% of the y variablity depends from x**
  
  # Deliverable 2
  ## Summary Statistics on Suspension Coils
@@ -79,21 +79,23 @@ So, we calculate the T-Test.
    ### Lot3
 <img width="400" alt="Captura de Pantalla 2022-07-16 a la(s) 20 11 42" src="https://user-images.githubusercontent.com/102195803/179414618-ad41d072-53df-4f95-add5-e85ab3c99989.png">
 
-**In this case we can see that the p-value is the 0.041 so, its less than 0.05, so our Null Hypothesis is FALSE, then our alternative hypothesis is TRUE, i.e. there is a statistical difference between Lot3 PSI mean that is 1,496.14 and the popultation mean 0f 1,500.**
-
-
+**In this case we can see that the p-value is the 0.041 so, its lower than 0.05, so our Null Hypothesis is FALSE, then our alternative hypothesis is TRUE, i.e. there is a statistical difference between Lot3 PSI mean that is 1,496.14 and the popultation mean 0f 1,500.**
 
 # Deliverable 4
-Deliverable 4: Design a Study Comparing the MechaCar to the Competition (20 points)
-Deliverable 4 Instructions
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+## Study Design: MechaCar vs Competition.
 
-Follow the instructions below to complete Deliverable 4.
+If we were asked to quantify how the MechaCar performs againts the competition, I selected the cost as the dependent, measured variable and cylinders, hp, city and highway fuel efficiency, safety rating and maintenance cost, each one as the single independent variable to evaluate in multiple groups. 
+Then, I will select the **One Way ANOVA T-Test** for each metric, because  we need to compare metrics from several different populations, MechaCar and more than one competitor. Starting from these,  we formulate our hypothesis:
 
-In your README, create a subheading ## Study Design: MechaCar vs Competition.
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+   H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+   Ha : At least one of the means is different from all other groups.  
+   
+And we make these assumptions to run the statitistical analysis about our input data from MechaCar and from the competitors:
+   - The dependent variable is numerical and continuous, and the independent variables are categorical.
+   - The dependent variable is considered to be normally distributed.
+   - The variance among each group should be very similar.that we have MechaCar and competitor data are normally distribuided, 
+And we need a large enough sample size,  to avoid Type 1 Error (False NULL).
+
+  
+
+
